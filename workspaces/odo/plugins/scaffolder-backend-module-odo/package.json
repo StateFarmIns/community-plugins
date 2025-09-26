@@ -50,7 +50,7 @@
     "gunzip-maybe": "^1.4.2",
     "hasha": "^5.2.2",
     "pkg-conf": "^3.1.0",
-    "tar-fs": "^2.1.0",
+    "tar-fs": "^2.1.4",
     "unzip-stream": "^0.3.1"
   },
   "devDependencies": {
