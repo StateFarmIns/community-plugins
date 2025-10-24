@@ -136,7 +136,7 @@ const AdrListContainer = (props: {
                 }}
                 secondary={
                   <Box className={classes.adrBox}>
-                    {adr.date}
+                    <Box>{adr.date}</Box>
                     {adr.status && (
                       <Chip
                         color={getChipColor(adr.status)}
