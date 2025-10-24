@@ -115,7 +115,17 @@ const AdrListContainer = (props: {
           <ListItemIcon>
             <FolderIcon />
           </ListItemIcon>
-          <ListItemText primary={title} />
+          <ListItemText
+            title={title}
+            primary={title}
+            primaryTypographyProps={{
+              noWrap: true,
+              style: {
+                overflow: 'hidden',
+                textOverflow: 'ellipsis',
+              },
+            }}
+          />
           {open ? <ExpandLess /> : <ExpandMore />}
         </ListItem>
       )}
